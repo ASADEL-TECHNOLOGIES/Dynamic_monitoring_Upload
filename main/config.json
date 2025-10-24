@@ -1,0 +1,58 @@
+{
+    "system":{
+
+    "model" : "/home/asadel/ASADEL PROJECTS/Cylinder_Project/model/cylinder_best .pt",
+    "interval_second" : 30,
+    "conf": 0.5,
+    "frame_skip": 2,
+    "use_gpu": true,
+    "run_mode": "threading"
+    },
+
+    "cameras": [
+        {
+            "id": 1,
+            "name": "Cam 1",
+            "source_path" : "/home/asadel/ASADEL PROJECTS/Cylinder_Project/videos/cylinder.mp4"
+        },
+        {
+            "id": 2,
+            "name": "Cam 2",
+            "source_path" : "/home/asadel/ASADEL PROJECTS/Cylinder_Project/videos/cylinder.mp4"
+        },
+        {
+            "id": 3,
+            "name": "Cam 3",
+            "source_path" : "/home/asadel/ASADEL PROJECTS/Cylinder_Project/videos/cylinder.mp4"
+        },
+        {
+            "id": 4,
+            "name": "Cam 4",
+            "source_path" : "/home/asadel/ASADEL PROJECTS/Cylinder_Project/videos/cylinder.mp4"
+        },
+        {
+            "id": 5,
+            "name": "Cam 5",
+            "source_path" : "rtsp://ranu:Bharat1947@192.168.177.145:554/stream1"
+        },
+        {
+            "id": 6,
+            "name": "Cam 6",
+            "source_path" : "0"
+        }
+    ],
+
+    "classes": {
+        "2" : "cylinder",
+        "3" : "wheel chock"
+    },
+    
+    "database":{
+            "host" : "127.0.0.1",
+            "username":"root",
+            "password":"Asadel@123",
+            "port":"3306",
+            "db": "cylinder"
+        }
+    
+}
